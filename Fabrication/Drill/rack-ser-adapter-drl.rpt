@@ -1,0 +1,27 @@
+Drill report for /github/workspace/rack-ser-adapter.kicad_pcb
+Created on Thu Oct 21 15:09:54 2021
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'rack-ser-adapter-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.40mm  0.016"  (8 holes)
+    T2  0.90mm  0.035"  (16 holes)
+    T3  1.00mm  0.039"  (18 holes)
+    T4  1.60mm  0.063"  (4 holes)
+    T5  3.20mm  0.126"  (8 holes)
+
+    Total plated holes count 54
+
+
+Drill file 'rack-ser-adapter-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  3.25mm  0.128"  (4 holes)
+
+    Total unplated holes count 4
