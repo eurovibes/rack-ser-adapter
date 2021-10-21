@@ -1,0 +1,10 @@
+theme: jekyll-theme-minimal
+
+title: rack-ser-adapter
+description: RS232 DE-9 to EIA-561 RJ45 adapters
+logo: https://github.com/eurovibes/rack-ser-adapter/raw/master/images/rack-ser-adapter.png
+show_downloads: true
+
+github:
+  zip_url: downloads/fabrication.zip
+  tar_url: downloads/fabrication.tar.gz
