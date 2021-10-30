@@ -10,8 +10,8 @@ Row,Referencias,Parte,Valor,P/N,Fabricante,Cod. Digi-Key,Footprint,Descripción,
 Project info:
 Schematic:,rack-ser-adapter
 Variant:,default
-Revision:,
-Date:,2021-10-21_15-09-21
+Revision:,v0.1
+Date:,2021-10-20
 KiCad Version:,5.1.9+dfsg1-1~bpo10+1
 Statistics:
 Component Groups:,3
