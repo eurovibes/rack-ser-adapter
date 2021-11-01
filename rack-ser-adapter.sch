@@ -28,6 +28,12 @@ F 0 "J1" H 3318 3192 50  0000 C CNN
 F 1 "RS-232" H 3318 3101 50  0000 C CNN
 F 2 "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 3400 2500 50  0001 C CNN
 F 3 " ~" H 3400 2500 50  0001 C CNN
+F 4 "n" H 3400 2500 50  0001 C CNN "assemble"
+F 5 "CONN D-SUB PLUG 9POS R/A SLDR" H 3400 2500 50  0001 C CNN "Description"
+F 6 "AE10970-ND" H 3400 2500 50  0001 C CNN "DistribPart#"
+F 7 "Digikey" H 3400 2500 50  0001 C CNN "Distributor"
+F 8 "A-DS 09 A/KG-T4S" H 3400 2500 50  0001 C CNN "ManuPart#"
+F 9 "Assmann WSW Components" H 3400 2500 50  0001 C CNN "Manufacture"
 	1    3400 2500
 	-1   0    0    -1  
 $EndComp
@@ -39,6 +45,12 @@ F 0 "J2" H 4920 2439 50  0000 R CNN
 F 1 "RJ45_Shielded" H 4920 2348 50  0000 R CNN
 F 2 "Connector_RJ:RJ45_Ninigi_GE" V 5250 2425 50  0001 C CNN
 F 3 "~" V 5250 2425 50  0001 C CNN
+F 4 "MODULAR JACK RJ45 8P8C" H 5250 2400 50  0001 C CNN "Description"
+F 5 "2057-MTJ-889X1-FSE-ND" H 5250 2400 50  0001 C CNN "DistribPart#"
+F 6 "Digikey" H 5250 2400 50  0001 C CNN "Distributor"
+F 7 "MTJ-889X1-FSE" H 5250 2400 50  0001 C CNN "ManuPart#"
+F 8 "Adam Tech" H 5250 2400 50  0001 C CNN "Manufacture"
+F 9 "n" H 5250 2400 50  0001 C CNN "assemble"
 	1    5250 2400
 	-1   0    0    -1  
 $EndComp
@@ -89,6 +101,7 @@ F 0 "H1" H 3300 3503 50  0000 R CNN
 F 1 "~" H 3300 3548 50  0000 R CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad" H 3400 3500 50  0001 C CNN
 F 3 "~" H 3400 3500 50  0001 C CNN
+F 4 "n" H 3400 3500 50  0001 C CNN "assemble"
 	1    3400 3500
 	-1   0    0    1   
 $EndComp
@@ -100,6 +113,7 @@ F 0 "H2" H 5150 3503 50  0000 R CNN
 F 1 "~" H 5150 3548 50  0000 R CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad" H 5250 3500 50  0001 C CNN
 F 3 "~" H 5250 3500 50  0001 C CNN
+F 4 "n" H 5250 3500 50  0001 C CNN "assemble"
 	1    5250 3500
 	-1   0    0    1   
 $EndComp
@@ -182,6 +196,12 @@ F 0 "J3" H 2418 5692 50  0000 C CNN
 F 1 "RS-232" H 2418 5601 50  0000 C CNN
 F 2 "Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 2500 5000 50  0001 C CNN
 F 3 " ~" H 2500 5000 50  0001 C CNN
+F 4 "n" H 2500 5000 50  0001 C CNN "assemble"
+F 5 "CONN D-SUB RCPT 9POS R/A SLDR" H 2500 5000 50  0001 C CNN "Description"
+F 6 "AE10924-ND" H 2500 5000 50  0001 C CNN "DistribPart#"
+F 7 "Digikey" H 2500 5000 50  0001 C CNN "Distributor"
+F 8 "A-DF 09 A/KG-T4S" H 2500 5000 50  0001 C CNN "ManuPart#"
+F 9 "Assmann WSW Components" H 2500 5000 50  0001 C CNN "Manufacture"
 	1    2500 5000
 	-1   0    0    -1  
 $EndComp
@@ -193,6 +213,12 @@ F 0 "J4" H 4920 4939 50  0000 R CNN
 F 1 "RJ45_Shielded" H 4920 4848 50  0000 R CNN
 F 2 "Connector_RJ:RJ45_Ninigi_GE" V 5250 4925 50  0001 C CNN
 F 3 "~" V 5250 4925 50  0001 C CNN
+F 4 "MODULAR JACK RJ45 8P8C" H 5250 4900 50  0001 C CNN "Description"
+F 5 "2057-MTJ-889X1-FSE-ND" H 5250 4900 50  0001 C CNN "DistribPart#"
+F 6 "Digikey" H 5250 4900 50  0001 C CNN "Distributor"
+F 7 "MTJ-889X1-FSE" H 5250 4900 50  0001 C CNN "ManuPart#"
+F 8 "Adam Tech" H 5250 4900 50  0001 C CNN "Manufacture"
+F 9 "n" H 5250 4900 50  0001 C CNN "assemble"
 	1    5250 4900
 	-1   0    0    -1  
 $EndComp
@@ -230,6 +256,7 @@ F 0 "H3" H 2400 6003 50  0000 R CNN
 F 1 "~" H 2400 6048 50  0000 R CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad" H 2500 6000 50  0001 C CNN
 F 3 "~" H 2500 6000 50  0001 C CNN
+F 4 "n" H 2500 6000 50  0001 C CNN "assemble"
 	1    2500 6000
 	-1   0    0    1   
 $EndComp
@@ -241,6 +268,7 @@ F 0 "H4" H 5150 6003 50  0000 R CNN
 F 1 "~" H 5150 6048 50  0000 R CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad" H 5250 6000 50  0001 C CNN
 F 3 "~" H 5250 6000 50  0001 C CNN
+F 4 "n" H 5250 6000 50  0001 C CNN "assemble"
 	1    5250 6000
 	-1   0    0    1   
 $EndComp
