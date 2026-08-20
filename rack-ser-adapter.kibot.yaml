@@ -3,10 +3,20 @@ kibot:
   version: 1
 
 preflight:
-  run_erc: true
-  run_drc: true
   check_zone_fills: false
   ignore_unconnected: false
+  erc:
+    enabled: true
+    format: 'CSV'
+    dir: 'erc_drc'
+
+  drc:
+    enabled: true
+    format: 'CSV'
+    dir: 'erc_drc'
+    filters:
+      - filter: "Ignore courtyard error"
+        error: courtyards_overlap
 
 global:
   # We want the revision added to the names for this project

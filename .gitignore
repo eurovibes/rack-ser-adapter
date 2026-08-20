@@ -4,10 +4,13 @@
 *.dcm
 *cache.lib 
 *.kicad_pcb-bak
+*.lck
 *.sch-bak
 *_jlcpcb.csv
 
 *_autosave*
+
+*backups/
 
 rack-ser-adapter.net
 rack-ser-adapter.xml
