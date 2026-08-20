@@ -1,5 +1,0 @@
-ERC report (Mon Nov  1 15:58:11 2021, Encoding UTF8 )
-
-***** Sheet /
-
- ** ERC messages: 0  Errors 0  Warnings 0

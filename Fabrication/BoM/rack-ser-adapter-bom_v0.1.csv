@@ -1,7 +1,8 @@
 Row,Referencias,Parte,Valor,P/N,Fabricante,Cod. Digi-Key,Footprint,Descripción,Quantity Per PCB
 1,H1 H2 H3 H4,MountingHole_Pad,~,,,,MountingHole_3.2mm_M3_ISO7380_Pad,,4
 2,J2 J4,RJ45_Shielded,RJ45_Shielded,,,,RJ45_Ninigi_GE,,2
-3,J1 J3,DB9_Female_MountingHoles,RS-232,,,,DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm,,2
+3,J1,DE9_Pins_MountingHoles,RS-232,,,,DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm,,1
+4,J3,DE9_Socket_MountingHoles,RS-232,,,,DSUB-9_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm,,1
 
 
 
@@ -12,9 +13,9 @@ Schematic:,rack-ser-adapter
 Variant:,default
 Revision:,v0.1
 Date:,2021-10-20
-KiCad Version:,5.1.9+dfsg1-1~bpo10+1
+KiCad Version:,10.0.5-unknown-202607221313~667fa36054~ubuntu25.10.1
 Statistics:
-Component Groups:,3
+Component Groups:,4
 Component Count:,8
 Fitted Components:,8
 Number of PCBs:,1
