@@ -26,13 +26,13 @@ jobs:
     - uses: INTI-CMNB/KiBot@v2_k10
       with:
         # Required - kibot config file
-        config: rack-ser-adapter.kibot.yaml
+        config: norm/rack-ser-adapter.kibot.yaml
         # optional - prefix to output defined in config
         dir: 'Fabrication'
         # optional - schematic file
-        schema: 'rack-ser-adapter.kicad_sch'
+        schema: 'norm/rack-ser-adapter.kicad_sch'
         # optional - PCB design file
-        board: 'rack-ser-adapter.kicad_pcb'
+        board: 'norm/rack-ser-adapter.kicad_pcb'
         verbose: 1
 
     - name: Create downloads directory

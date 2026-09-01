@@ -23,8 +23,8 @@ global:
   output: '%f-%i_%r.%x'
 
 import:
-  - configs/FusionPCB.kibot.yaml
-  - configs/JLCPCB.kibot.yaml
+  - ../configs/FusionPCB.kibot.yaml
+  - ../configs/JLCPCB.kibot.yaml
 
 filters:
  - name: 'exclude_any'
