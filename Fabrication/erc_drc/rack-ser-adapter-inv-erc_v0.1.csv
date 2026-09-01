@@ -1,0 +1,3 @@
+"Sheet","Severity","Excluded","Type","Description","Details"
+"/ (rack-ser-adapter-inv.kicad_sch)","warning","False","footprint_link_issues","The current configuration does not include the footprint library 'Connector_Dsub_v5'","@(0.635 mm, 1.27 mm): Symbol J3 [DE9_Pins_MountingHoles]"
+"/ (rack-ser-adapter-inv.kicad_sch)","warning","False","footprint_link_issues","The current configuration does not include the footprint library 'Connector_Dsub_v5'","@(0.8509 mm, 0.635 mm): Symbol J1 [DE9_Socket_MountingHoles]"
