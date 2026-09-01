@@ -1,20 +1,20 @@
-name: "KiCad CI/CD for RS232 DE-9 to EIA-561 RJ45 adapters"
+name: "KiCad CI/CD for RS232 DE-9 to EIA-561 RJ45 adapters (norm)"
 
 # Controls when the action will run. Triggers the workflow on push or pull
 # request events but only for the master branch
 on:
   push:
     paths:
-      - '*.kicad_sch'
-      - '*.kicad_pcb'
-      - '*.kibot.yaml'
-      - '.github/workflows/main.yml'
+      - 'norm/*.kicad_sch'
+      - 'norm/*.kicad_pcb'
+      - 'norm/*.kibot.yaml'
+      - '.github/workflows/norm.yml'
   pull_request:
     paths:
-      - '*.kicad_sch'
-      - '*.kicad_pcb'
-      - '*.kibot.yaml'
-      - '.github/workflows/main.yml'
+      - 'norm/*.kicad_sch'
+      - 'norm/*.kicad_pcb'
+      - 'norm/*.kibot.yaml'
+      - '.github/workflows/norm.yml'
 
 # A workflow run is made up of one or more jobs that can run sequentially or
 # in parallel
@@ -28,7 +28,7 @@ jobs:
         # Required - kibot config file
         config: norm/rack-ser-adapter.kibot.yaml
         # optional - prefix to output defined in config
-        dir: 'Fabrication'
+        dir: 'Fabrication-norm'
         # optional - schematic file
         schema: 'norm/rack-ser-adapter.kicad_sch'
         # optional - PCB design file
@@ -36,49 +36,49 @@ jobs:
         verbose: 1
 
     - name: Create downloads directory
-      run: mkdir downloads
+      run: mkdir downloads-norm
 
     - name: Fix ownership
-      run: sudo chown $(whoami) Fabrication
+      run: sudo chown $(whoami) Fabrication-norm
 
     - name: Gerber Archive
       uses: thedoctor0/zip-release@master
       with:
-        filename: 'Fabrication/gerber.zip'
-        path: 'Fabrication/Gerbers'
+        filename: 'Fabrication-norm/gerber.zip'
+        path: 'Fabrication-norm/Gerbers'
 
     - name: Downloads zip Archive
       uses: thedoctor0/zip-release@master
       with:
-        filename: 'downloads/fabrication.zip'
-        path: 'Fabrication'
+        filename: 'downloads-norm/fabrication.zip'
+        path: 'Fabrication-norm'
 
     - name: Downloads tar Archive
       uses: thedoctor0/zip-release@master
       with:
-        filename: 'downloads/fabrication.tar.gz'
-        path: 'Fabrication'
+        filename: 'downloads-norm/fabrication.tar.gz'
+        path: 'Fabrication-norm'
         type: tar
 
     - name: Retrieve results
       if: ${{ always() }}
       uses: actions/upload-artifact@v7
       with:
-        name: Fabrication
+        name: Fabrication-norm
         path: |
-          Fabrication/
+          Fabrication-norm/
         if-no-files-found: warn
 
     - name: Deploy Fabrication
       uses: JamesIves/github-pages-deploy-action@v4
       with:
         branch: gh-pages
-        folder: Fabrication
-        target-folder: Fabrication
+        folder: Fabrication-norm
+        target-folder: Fabrication-norm
 
     - name: Deploy Downloads
       uses: JamesIves/github-pages-deploy-action@v4
       with:
         branch: gh-pages
-        folder: downloads
-        target-folder: downloads
+        folder: downloads-norm
+        target-folder: downloads-norm

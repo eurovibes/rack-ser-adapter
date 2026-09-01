@@ -1,0 +1,84 @@
+name: "KiCad CI/CD for RS232 DE-9 to EIA-561 RJ45 adapters (invers)"
+
+# Controls when the action will run. Triggers the workflow on push or pull
+# request events but only for the master branch
+on:
+  push:
+    paths:
+      - 'invers/*.kicad_sch'
+      - 'invers/*.kicad_pcb'
+      - 'invers/*.kibot.yaml'
+      - '.github/workflows/invers.yml'
+  pull_request:
+    paths:
+      - 'invers/*.kicad_sch'
+      - 'invers/*.kicad_pcb'
+      - 'invers/*.kibot.yaml'
+      - '.github/workflows/invers.yml'
+
+# A workflow run is made up of one or more jobs that can run sequentially or
+# in parallel
+jobs:
+  Fabrication:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v7
+    - uses: INTI-CMNB/KiBot@v2_k10
+      with:
+        # Required - kibot config file
+        config: invers/rack-ser-adapter-inv.kibot.yaml
+        # optional - prefix to output defined in config
+        dir: 'Fabrication-invers'
+        # optional - schematic file
+        schema: 'invers/rack-ser-adapter-inv.kicad_sch'
+        # optional - PCB design file
+        board: 'invers/rack-ser-adapter-inv.kicad_pcb'
+        verbose: 1
+
+    - name: Create downloads directory
+      run: mkdir downloads-invers
+
+    - name: Fix ownership
+      run: sudo chown $(whoami) Fabrication-invers
+
+    - name: Gerber Archive
+      uses: thedoctor0/zip-release@master
+      with:
+        filename: 'Fabrication-invers/gerber.zip'
+        path: 'Fabrication-invers/Gerbers'
+
+    - name: Downloads zip Archive
+      uses: thedoctor0/zip-release@master
+      with:
+        filename: 'downloads-invers/fabrication-invers.zip'
+        path: 'Fabrication-invers'
+
+    - name: Downloads tar Archive
+      uses: thedoctor0/zip-release@master
+      with:
+        filename: 'downloads-invers/fabrication-invers.tar.gz'
+        path: 'Fabrication-invers'
+        type: tar
+
+    - name: Retrieve results
+      if: ${{ always() }}
+      uses: actions/upload-artifact@v7
+      with:
+        name: Fabrication-invers
+        path: |
+          Fabrication-invers/
+        if-no-files-found: warn
+
+    - name: Deploy Fabrication
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        branch: gh-pages
+        folder: Fabrication-invers
+        target-folder: Fabrication-invers
+
+    - name: Deploy Downloads
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        branch: gh-pages
+        folder: downloads-invers
+        target-folder: downloads-invers

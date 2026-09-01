@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Connector_Dsub_v5") (type "KiCad") (uri "/home/bene/work/projects/rack-ser-adapter/Connector_Dsub_v5.pretty") (options "") (descr ""))
+)
