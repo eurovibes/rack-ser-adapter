@@ -1,7 +1,10 @@
 <!-- SPDX-FileCopyrightText: 2021 Benedikt Spranger <b.spranger@linutronix.de> -->
 <!-- SPDX-License-Identifier: CERN-OHL-S-2.0 -->
 
-[![KiCad CI/CD for RS232 DE-9 to EIA-561 RJ45 adapters](https://github.com/eurovibes/rack-ser-adapter/actions/workflows/main.yml/badge.svg)](https://github.com/eurovibes/rack-ser-adapter/actions/workflows/main.yml)
+[![KiCad CI/CD for RS232 DE-9 to EIA-561 RJ45 adapters](https://github.com/eurovibes/rack-ser-adapter/actions/workflows/norm.yml/badge.svg)](https://github.com/eurovibes/rack-ser-adapter/actions/workflows/norm.yml)
+[![KiCad CI/CD for RS232 DE-9 to EIA-561 RJ45 adapters](https://github.com/eurovibes/rack-ser-adapter/actions/workflows/invers.yml/badge.svg)](https://github.com/eurovibes/rack-ser-adapter/actions/workflows/invers.yml)
+[![License](https://img.shields.io/github/license/eurovibes/rack-ser-adapter)](https://github.com/eurovibes/rack-ser-adapter/blob/master/LICENSE)
+![GitHub Release](https://img.shields.io/github/v/release/eurovibes/rack-ser-adapter)
 ![rack-ser-adapter logo](https://github.com/eurovibes/rack-ser-adapter/raw/master/images/rack-ser-adapter.png "rack-ser-adapter logo")
 
 # rack-ser-adapter -  RS232 DE-9 to EIA-561 RJ45 adapter
