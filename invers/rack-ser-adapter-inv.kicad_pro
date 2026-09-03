@@ -254,7 +254,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "v0.2"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -604,7 +604,7 @@
       "step": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "kicad-embed://eurovibes.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -724,7 +724,7 @@
     "meta": {
       "version": 1
     },
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "kicad-embed://eurovibes.kicad_wks",
     "plot_directory": "",
     "reuse_designators": true,
     "subpart_first_id": 65,
@@ -733,13 +733,18 @@
       {
         "filename": "rack-ser-adapter-inv.kicad_sch",
         "name": "rack-ser-adapter-inv",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "25a79865-794f-4450-981d-abb3ab43e55d"
       }
     ],
     "used_designators": "",
     "variants": []
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "25a79865-794f-4450-981d-abb3ab43e55d",
+      "rack-ser-adapter-inv"
+    ]
+  ],
   "text_variables": {},
   "tuning_profiles": {
     "meta": {

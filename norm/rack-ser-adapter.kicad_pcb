@@ -7,6 +7,16 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "DB9 to RJ45 adapter (EIA-561)")
+		(date "2026-09-03")
+		(rev "v0.2")
+		(company "Benedikt Spranger")
+		(comment 1 "SPDX-License-Identifier: CERN-OHL-S-2.0")
+		(comment 2 "https://ohwr.org/cern_ohl_s_v2.txt")
+		(comment 3 "To view a copy of this license, visit")
+		(comment 4 "This work is licensed under the CERN-OHL-S v2")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
@@ -12194,4 +12204,44 @@
 		)
 	)
 	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "eurovibes.kicad_wks")
+			(type worksheet)
+			(data |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
+				CM2Q9FcIluPEsf+dalU=|
+			)
+			(checksum "7BDF06574BFAADFEF5330C5A1DD5FBB4")
+		)
+	)
 )
