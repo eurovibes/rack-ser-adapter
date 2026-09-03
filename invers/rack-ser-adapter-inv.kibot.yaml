@@ -197,23 +197,23 @@ outputs:
       separate_files_for_front_and_back: true
       only_smd: true
 
-  - name: pcb_top_b
-    comment: "PCB render top blue"
+  - name: pcb_top_y
+    comment: "PCB render top yellow"
     type: pcbdraw
-    dir: PCB/blue
+    dir: PCB/yellow
     options:
       format: jpg
-      style: set-blue-enig
+      style: set-yellow-enig
       show_components: none
       dpi: 600
 
-  - name: pcb_bot_b
-    comment: "PCB render bottom blue"
+  - name: pcb_bot_y
+    comment: "PCB render bottom yellow"
     type: pcbdraw
-    dir: PCB/blue
+    dir: PCB/yellow
     options:
       format: jpg
-      style: set-blue-enig
+      style: set-yellow-enig
       bottom: True
       show_components: none
       dpi: 600
