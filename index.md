@@ -24,31 +24,40 @@ is quite a challenge. rack-ser-adapter is developed to reduce this effort.
 
 ### Schematic
 
-Link to the [Schematic](https://eurovibes.github.io/rack-ser-adapter/Fabrication/rack-ser-adapter-schematic_0.1.pdf).
+#### Norm
+Link to the [Schematic](https://eurovibes.github.io/rack-ser-adapter/Fabrication-norm/rack-ser-adapter-schematic_v0.2.pdf).
+
+#### Invers
+Link to the [Schematic](https://eurovibes.github.io/rack-ser-adapter/Fabrication-invers/rack-ser-adapter-inv-schematic_v0.2.pdf).
 
 ### Layout
 
 #### Top
-![Bottom Layer](https://eurovibes.github.io/rack-ser-adapter/Fabrication/PCB/blue/rack-ser-adapter-top_.jpg)
+![Top Layer norm](https://eurovibes.github.io/rack-ser-adapter/Fabrication-norm/PCB/blue/rack-ser-adapter-top_v0.2.jpg)
+![Top Layer invers](https://eurovibes.github.io/rack-ser-adapter/Fabrication-invers/PCB/yellow/rack-ser-adapter-inv-top_v0.2.jpg)
 
 #### Bottom
-![Bottom Layer](https://eurovibes.github.io/rack-ser-adapter/Fabrication/PCB/blue/rack-ser-adapter-bottom_.jpg)
+![Bottom Layer (norm)](https://eurovibes.github.io/rack-ser-adapter/Fabrication-norm/PCB/blue/rack-ser-adapter-bottom_v0.2.jpg)
+![Bottom Layer (invers)](https://eurovibes.github.io/rack-ser-adapter/Fabrication-invers/PCB/yellow/rack-ser-adapter-inv-bottom_v0.2.jpg)
 
 ### BoM
-rack-ser-adapter provides am [interactive BoM](https://eurovibes.github.io/rack-ser-adapter/Fabrication/BoM/rack-ser-adapter-ibom_.html).
+rack-ser-adapter provides am [interactive BoM (norm)](https://eurovibes.github.io/rack-ser-adapter/Fabrication-norm/BoM/rack-ser-adapter-ibom_v0.2.html) and
+[interactive BoM (invers)](https://eurovibes.github.io/rack-ser-adapter/Fabrication-invers/BoM/rack-ser-adapter-inv-ibom_v0.2.html).
 
 ## Fabrication
-**rack-ser-adapter** provides generic gerber files and fabrication data for JLCPCB and
-Seeed Fusion PCB.
+**rack-ser-adapter** provides generic gerber files and fabrication data for
+JLCPCB and Seeed Fusion PCB.
 
 ### Gerber
-Gerber files can be downloaded [here](https://eurovibes.github.io/rack-ser-adapter/Fabrication/gerber.zip).
+Gerber files can be downloaded [here (norm)](https://eurovibes.github.io/rack-ser-adapter/Fabrication-norm/gerber.zip) and [here (invers)](https://eurovibes.github.io/rack-ser-adapter/Fabrication-invers/gerber.zip).
 
 ### JLCPCB
-Fabrication files for [JLCPCB](https://eurovibes.github.io/rack-ser-adapter/Fabrication/JLCPCB/rack-ser-adapter-JLCPCB_.zip).
+Fabrication files for [JLCPCB (norm)](https://eurovibes.github.io/rack-ser-adapter/Fabrication-norm/JLCPCB/rack-ser-adapter-JLCPCB_v0.2.zip) and
+[JLCPCB (invers)](https://eurovibes.github.io/rack-ser-adapter/Fabrication-invers/JLCPCB/rack-ser-adapter-inv-JLCPCB_v0.2.zip).
 
 ### Seeed Fusion PCB
-Fabrication files for [Seeed Fusion PCB](https://eurovibes.github.io/rack-ser-adapter/Fabrication/FusionPCB/rack-ser-adapter-FusionPCB_.zip).
+Fabrication files for [Seeed Fusion PCB (norm)](https://eurovibes.github.io/rack-ser-adapter/Fabrication-norm/FusionPCB/rack-ser-adapter-FusionPCB_v0.2.zip) and
+[Seeed Fusion PCB (invers)](https://eurovibes.github.io/rack-ser-adapter/Fabrication-invers/FusionPCB/rack-ser-adapter-inv-FusionPCB_v0.2.zip).
 
 ## License rules
 
