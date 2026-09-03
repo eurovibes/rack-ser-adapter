@@ -1,12 +1,12 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,10.0.5-unknown-202607221313~667fa36054~ubuntu25.10.1*
-G04 #@! TF.CreationDate,2026-09-03T15:54:37+00:00*
+G04 #@! TF.CreationDate,2026-09-03T15:59:04+00:00*
 G04 #@! TF.ProjectId,rack-ser-adapter,7261636b-2d73-4657-922d-616461707465,v0.2*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Soldermask,Top*
 G04 #@! TF.FilePolarity,Negative*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 10.0.5-unknown-202607221313~667fa36054~ubuntu25.10.1) date 2026-09-03 15:54:37*
+G04 Created by KiCad (PCBNEW 10.0.5-unknown-202607221313~667fa36054~ubuntu25.10.1) date 2026-09-03 15:59:04*
 %MOMM*%
 %LPD*%
 G01*
