@@ -11,6 +11,7 @@
 *_autosave*
 
 *backups/
+*-backup/
 
 rack-ser-adapter.net
 rack-ser-adapter.xml
@@ -19,3 +20,5 @@ fp-info-cache
 # other backup files
 *~
 \#*#
+
+.history
