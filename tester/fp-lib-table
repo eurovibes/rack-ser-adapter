@@ -1,0 +1,5 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "sw") (type "KiCad") (uri "${KIPRJMOD}/sw.pretty") (options "") (descr ""))
+	(lib (name "eurovibes") (type "KiCad") (uri "${KIPRJMOD}/eurovibes.pretty") (options "") (descr ""))
+)
