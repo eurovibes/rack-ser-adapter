@@ -21,7 +21,10 @@ global:
 
 import:
   - ../configs/FusionPCB.kibot.yaml
+  - ../configs/FusionPCB_position.kibot.yaml
   - ../configs/JLCPCB.kibot.yaml
+  - ../configs/JLCPCB_position.kibot.yaml
+  - ../configs/PCBWay.kibot.yaml
 
 filters:
  - name: 'exclude_any'
@@ -30,6 +33,27 @@ filters:
    exclude_any:
      - column: Reference
        regex: '^(G|#|TP|F).*'
+
+ - name: 'only_jlc_parts'
+   comment: 'Only parts with JLC (LCSC) code'
+   type: generic
+   include_only:
+     - column: 'LCSC#'
+       regex: '^C\d+'
+
+ - name: 'only_assemble_parts'
+   comment: 'Only SMD assemble parts'
+   type: generic
+   include_only:
+     - column: 'assemble'
+       regex: '[yY]'
+
+variants:
+  - name: rotated
+    comment: 'Just a place holder for the rotation filter'
+    type: kibom
+    variant: rotated
+    pre_transform: _rot_footprint
 
 outputs:
   - name: 'print_sch'
@@ -68,20 +92,20 @@ outputs:
       columns:
         - Row
         - field: References
-          name: Referencias
+          name: References
         - field: Part
-          name: Parte
+          name: Part
         - field: Value
-          name: Valor
-        - field: manf#
+          name: Value
+        - field: mpn
           name: P/N
-        - field: manf
-          name: Fabricante
+        - field: Manufacture
+          name: Manufacture
         - field: digikey#
-          name: 'Cod. Digi-Key'
+          name: 'Supplier P/N'
         - Footprint
-        - field: Desc
-          name: Descripción
+        - field: Description
+          name: Description
         - 'Quantity Per PCB'
       group_fields:  ['digikey#', 'Part']
       normalize_values: true
