@@ -4,6 +4,16 @@
 	(generator_version "10.0")
 	(uuid "91de0dd6-9e57-4785-b663-b9664d455026")
 	(paper "A4")
+	(title_block
+		(title "rack-ser-adapter-tester")
+		(date "2026-09-15")
+		(rev "v0.1")
+		(company "Benedikt Spranger")
+		(comment 1 "SPDX-License-Identifier: CERN-OHL-S-2.0")
+		(comment 2 "https://ohwr.org/cern_ohl_s_v2.txt")
+		(comment 3 "To view a copy of this license, visit")
+		(comment 4 "This work is licensed under the CERN-OHL-S v2")
+	)
 	(lib_symbols
 		(symbol "Connector:DE9_Pins_MountingHoles"
 			(pin_names
@@ -20649,40 +20659,40 @@
 		(file
 			(name "eurovibes.kicad_wks")
 			(type worksheet)
-			(data |KLUv/WCyE303AHpXfA4p8K6mOggohP3pL53dKC+eTfLfRWO8bmWpIaLclU2kxL1ac83C4qRYy1UN
-				AdwAwAAaFAu06oFBS0xYJNZKGkFnqSkiwcOERDOogO09HMAwgCP8VGUWSVeLMzRFgxW9YGLiAcOA
-				OyyNBFZQpYIsVJZmslzcggOm6ZAAgfd6moXl57FYC4tNhZzHmwnFgZ73HRQOCgdt0IY3FZbGouE8
-				vE9eJgyEg25kLB0WKlQuJszjkH0jWTgg+awskwrlotF4Pne/x5gsj0PQeaq+qUiajschDRIO2vBl
-				QzJ5vLlYKhuUpqFYcFCaBxlM5QFJ/YTJqEg2KhoHiwaENZJ/0GAwFJYJo/GAcES/XGA6mgpL8ziH
-				hGbpePwAAkAYjKVCg+MVSiOpLJMl43FIypS6uZ9QmI7KMuHxjggUKjAkF0yER8+VKi21Vx1hvOv3
-				uzuHerXnhekNaqt3ami1N3vadNT668dzlO74Lb6xK5/R3zmCXwfhIftSio6c+7I767/01GsivTqM
-				U531I7r2HUS86Ef9PAZpeIp//IfyK9fyEfpCZ+gws+lbHuYVeqMnn62GP35JI8HImHDoFw3Jxaq0
-				382MOAfdsOCQbDSMRdpkxo5CLJ3Ee5BSRDSC3NMgoilAkOCppeg2MNEsy4OJtdaJIEXQIhriITLx
-				gtGQNMwh+1WR1NSGoHig0GgYilXFBBTIIADjYUm0gqZgucBMYAT900vf4F27QzHta+lNvddJETrI
-				WumK+wff8rve2+PW4fTn3lrVGd7FIxUTvZUTofjcgcylxD+rf+zKxXOWftiT4qMDu7lvK1Rvp9sb
-				P7VaLJfbdMZeu1qYXPqCJzevjvtFXeedbzmho57tLCq6U/mYtjx7j3wF/5id926Ert4VetxDfuqf
-				PuPTcf4kjsitZu3bT+9oPt+VNRXPW0vtrH76B6p0PWz9rcO3VIwpuX3UJ3xkD121r/7Cw3PiV3xk
-				hyoAAkAg54d1J3yCAISBBAQiJPp9F0KI0RnK3H5E57ONj9N2dme2EC69UgqyerMXG2t8c927T2pf
-				/6XGV8r+4B2CZ6l97XG72nbeVKsYr6LqNu4+hCwmx7K9PVfZ1mWe+Ea9rKwbv7Gz1k0jPKOkHp3i
-				9/7SVTvaO/cEUzvnELJN/c7gc+o91uIitc0dlnrmXOM+mepwD/ON3juQFfvZ1E/EkfGZ30/nUf/Q
-				W1yHzVrkdderPrL1OqaoufCv13s9qat44JsewceBmaihMHAUk5lARJIkSWOhDEEKeSp5A2KQKQVx
-				kDFEIaoYIhGRgtSq1QHErEjW7RUgxGNVZpNX3R6vQE80nzs0mYUI6o75iBe4JAOid86sRLl5+93J
-				18aEZTQ3UlhkZf5tZ5LkaTmhaAQUqZrZ7YadkBGKy04iMndUenI9reogfrBI9ntOdrKvlYG2fLl5
-				rJjXICc2Ek8YO9hO1Clj+iLcUe61CtPoYd+Uv/JK0jr/7Wc/qF0QwNGy2DkzUS/sNuxo/sF1Rump
-				AAW3s+2Yx7Gy+FivC6Lxt//15+JUiqm+lIomJCChVyTx94IP8zkpwbpltTcA+USsr3xSUWSuwP/l
-				ERezXkfmypX0whMNXHBzFmUyM0SJeun5y6arq8bMaX3uOdaenLtwjQhe2DkvV8BEly6jLU5WJnwz
-				FcATjx6x7UaZfLt+dkRaeh1lcZ2wtYYfZkFlvtTTaxlDBk7DQmq45UPBXXx5ZrCA0wu3n0/tR+La
-				EGcqje8ho1dnBeKuLOaL0oMyi8XEDiUsvCHLnt9C96DHwfB5GEE2szKxgm5aacdrvFgZjIDfD0Zp
-				uf0mJGG6VcUNx8ftgsQBXHkWSizAIbW8P0ntQotwk0yRusDYBfBRX8wLWYRk4u/7xagvp+oxGq4Y
-				HzEKZZkLJEtmRuoJg1MUOCbKm+AHuBI+WpkBxVjm2SNPgMt9PZz/NldscWDdh9hcsofhJtW5qvQO
-				oy8hlo073MqY93qXZEKFcUHgAGJVFI1D6Bic3DwP0XZywS1aM04easKug4KSNPeM5MZFyWqr8yhb
-				nd9Z15/w8hI8gbly1hROi1z7U83n1vuo4v6toP65ZW+RUuk8cV2L4QM4VYJdLizZ3uJM92SPW+G+
-				0pJYy1FdFUMXyBu+r8Opp773AKce3AKoDR4zWJODBg6QJkwcCCL5bZwgwT0I6MH4qgHRrOkBWPzb
-				gravCg/u5QDwXyVYtHiGOVLVyzLwrEe4oUXVcO1GYvI7tGyT3QiKali/vUx5jVr9A/2Rrdv3zoTq
-				fGRCUlOiMh6/sZbTEm0crlCZxEKHq1NYVaqKgKYO2L+xw4qv+E2lKGlOhgPiUSfUsX5XeMSVBayq
-				oZZKIUpCrP/qgoWbOuh/TVoV|
+			(data |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
+				CM2Q9FcIluPEsf+dalU=|
 			)
-			(checksum "FC228D8A38E5AFD69CFF1C07FF347C95")
+			(checksum "7BDF06574BFAADFEF5330C5A1DD5FBB4")
 		)
 	)
 )

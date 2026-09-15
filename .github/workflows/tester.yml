@@ -1,0 +1,84 @@
+name: "KiCad CI/CD for RS232 DE-9 to EIA-561 RJ45 adapters (tester)"
+
+# Controls when the action will run. Triggers the workflow on push or pull
+# request events but only for the master branch
+on:
+  push:
+    paths:
+      - 'tester/*.kicad_sch'
+      - 'tester/*.kicad_pcb'
+      - 'tester/*.kibot.yaml'
+      - '.github/workflows/tester.yml'
+  pull_request:
+    paths:
+      - 'tester/*.kicad_sch'
+      - 'tester/*.kicad_pcb'
+      - 'tester/*.kibot.yaml'
+      - '.github/workflows/tester.yml'
+
+# A workflow run is made up of one or more jobs that can run sequentially or
+# in parallel
+jobs:
+  Fabrication:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v7
+    - uses: INTI-CMNB/KiBot@v2_k10
+      with:
+        # Required - kibot config file
+        config: tester/tester.kibot.yaml
+        # optional - prefix to output defined in config
+        dir: 'Fabrication-tester'
+        # optional - schematic file
+        schema: 'tester/tester.kicad_sch'
+        # optional - PCB design file
+        board: 'tester/tester.kicad_pcb'
+        verbose: 1
+
+    - name: Create downloads directory
+      run: mkdir downloads-tester
+
+    - name: Fix ownership
+      run: sudo chown $(whoami) Fabrication-tester
+
+    - name: Gerber Archive
+      uses: thedoctor0/zip-release@master
+      with:
+        filename: 'Fabrication-tester/gerber.zip'
+        path: 'Fabrication-tester/Gerbers'
+
+    - name: Downloads zip Archive
+      uses: thedoctor0/zip-release@master
+      with:
+        filename: 'downloads-tester/fabrication.zip'
+        path: 'Fabrication-tester'
+
+    - name: Downloads tar Archive
+      uses: thedoctor0/zip-release@master
+      with:
+        filename: 'downloads-tester/fabrication.tar.gz'
+        path: 'Fabrication-tester'
+        type: tar
+
+    - name: Retrieve results
+      if: ${{ always() }}
+      uses: actions/upload-artifact@v7
+      with:
+        name: Fabrication-tester
+        path: |
+          Fabrication-tester/
+        if-no-files-found: warn
+
+    - name: Deploy Fabrication
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        branch: gh-pages
+        folder: Fabrication-tester
+        target-folder: Fabrication-tester
+
+    - name: Deploy Downloads
+      uses: JamesIves/github-pages-deploy-action@v4
+      with:
+        branch: gh-pages
+        folder: downloads-tester
+        target-folder: downloads-tester

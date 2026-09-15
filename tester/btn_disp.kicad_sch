@@ -4,6 +4,16 @@
 	(generator_version "10.0")
 	(uuid "95fc2a4e-fa9f-4077-9642-622ebcec0060")
 	(paper "A4")
+	(title_block
+		(title "rack-ser-adapter-tester")
+		(date "2026-09-15")
+		(rev "v0.1")
+		(company "Benedikt Spranger")
+		(comment 1 "SPDX-License-Identifier: CERN-OHL-S-2.0")
+		(comment 2 "https://ohwr.org/cern_ohl_s_v2.txt")
+		(comment 3 "To view a copy of this license, visit")
+		(comment 4 "This work is licensed under the CERN-OHL-S v2")
+	)
 	(lib_symbols
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
