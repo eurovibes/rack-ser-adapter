@@ -1,0 +1,4 @@
+"Check","Severity","Excluded","Type","Description","Details"
+"Schematic parity","warning","False","duplicate_footprints","Duplicate footprints","@(123.0 mm, 138.0 mm): Footprint REF**;@(135.0 mm, 137.0 mm): Footprint REF**"
+"Schematic parity","warning","False","extra_footprint","Extra footprint","@(135.0 mm, 137.0 mm): Footprint REF**"
+"Schematic parity","warning","False","extra_footprint","Extra footprint","@(123.0 mm, 138.0 mm): Footprint REF**"
