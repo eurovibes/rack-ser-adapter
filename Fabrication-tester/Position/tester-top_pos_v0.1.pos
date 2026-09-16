@@ -1,4 +1,4 @@
-### Module positions - created on Wed 16 Sep 2026 02:00:47  ###
+### Module positions - created on Wed 16 Sep 2026 12:33:35  ###
 ### Printed by KiBot
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -59,7 +59,7 @@ D129      LED                LED_0603_1608Metric                               2
 D130      LED                LED_0603_1608Metric                               256.6426   -98.7909    180.0000   top 
 D131      LED                LED_0603_1608Metric                               257.0000   -139.5000   180.0000   top 
 D132      LED                LED_0603_1608Metric                               256.7657   -67.4850    180.0000   top 
-D201      1N4148WS           D_SOD-123                                         181.3816   -89.2500    0.0000     top 
+D201      1N4148WS           D_SOD-323                                         181.3816   -89.2500    0.0000     top 
 D202      LED                LED_0603_1608Metric                               202.6500   -138.1325   90.0000    top 
 D401      LED                LED_0603_1608Metric                               236.5000   -32.0000    0.0000     top 
 FB201     Ferrite            L_0805_2012Metric                                 185.2316   -90.2500    -90.0000   top 
