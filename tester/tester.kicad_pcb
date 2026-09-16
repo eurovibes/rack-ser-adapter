@@ -123,6 +123,7 @@
 		)
 		(capping no)
 		(filling no)
+		(grid_origin 115 25)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -44918,6 +44919,30 @@
 			)
 			(justify left bottom)
 		)
+	)
+	(point
+		(at 115 25)
+		(size 1)
+		(layer "F.Cu")
+		(uuid "0674ee0a-c90f-4c4b-be8b-937ddec67e6e")
+	)
+	(point
+		(at 115 25)
+		(size 1)
+		(layer "F.Cu")
+		(uuid "75a1eb4c-2c1c-4e4d-ba74-77fd573cd8e6")
+	)
+	(point
+		(at 115 25)
+		(size 1)
+		(layer "F.Cu")
+		(uuid "7c6c2182-1714-48bd-aa7d-1c7ee72c712d")
+	)
+	(point
+		(at 227 107)
+		(size 1)
+		(layer "F.Cu")
+		(uuid "9d55de59-5ae8-4426-8a22-6406f8009c5f")
 	)
 	(via
 		(at 151.75 113.25)
