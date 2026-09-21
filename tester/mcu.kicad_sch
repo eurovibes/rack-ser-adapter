@@ -9845,7 +9845,7 @@
 				)
 			)
 		)
-		(property "Long Description" " 1.25V@150mA 100V 150mA 1uA@75V 200mW 2A 4ns Independent SOD-323 Switching Diodes ROHS"
+		(property "Long Description" "150mA 1A 1V@50mA 1uA@75V 400mW 4ns 75V Independent SOD-123 Switching Diodes ROHS"
 			(at 114.3 31.75 90)
 			(hide yes)
 			(show_name no)
@@ -9856,7 +9856,7 @@
 				)
 			)
 		)
-		(property "MF" "Jiangsu Changjing Electronics Technology Co., Ltd."
+		(property "MF" "ST(Semtech)"
 			(at 114.3 31.75 90)
 			(hide yes)
 			(show_name no)
@@ -9867,7 +9867,7 @@
 				)
 			)
 		)
-		(property "MP" "1N4148WS"
+		(property "MP" "1N4148W"
 			(at 114.3 31.75 90)
 			(hide yes)
 			(show_name no)
@@ -9911,7 +9911,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C2128"
+		(property "LCSC#" "C81598"
 			(at 114.3 31.75 90)
 			(hide yes)
 			(show_name no)
@@ -9922,7 +9922,7 @@
 				)
 			)
 		)
-		(property "Manufacture" "Jiangsu Changjing Electronics Technology Co., Ltd."
+		(property "Manufacture" "ST(Semtech)"
 			(at 114.3 31.75 90)
 			(hide yes)
 			(show_name no)
@@ -9933,7 +9933,7 @@
 				)
 			)
 		)
-		(property "mpn" "1N4148WS"
+		(property "mpn" "1N4148W"
 			(at 114.3 31.75 90)
 			(hide yes)
 			(show_name no)
