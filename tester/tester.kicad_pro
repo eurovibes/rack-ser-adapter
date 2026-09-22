@@ -754,7 +754,7 @@
         "uuid": "91de0dd6-9e57-4785-b663-b9664d455026"
       }
     ],
-    "used_designators": "H301-304,#PWR216,#PWR308-311,SW301-305",
+    "used_designators": "SW301-305,#PWR216,#PWR308-311,H301-304",
     "variants": []
   },
   "sheets": [

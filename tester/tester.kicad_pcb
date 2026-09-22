@@ -31718,7 +31718,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C132563"
+		(property "LCSC#" "C132562"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -31757,12 +31757,38 @@
 				)
 			)
 		)
-		(property "mpn" "10118194-0001LF"
+		(property "mpn" "10118193-0001LF"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9df48002-a78f-4c53-b634-9c7171545ba1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MF" "Amphenol ICC"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6160c824-22c0-415b-a32b-07b880f4de98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MP" "10118193-0001LF"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f26c4f25-7806-462e-a7c0-1c7caf0212ad")
 			(effects
 				(font
 					(size 1 1)

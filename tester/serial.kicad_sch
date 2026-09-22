@@ -3987,7 +3987,7 @@
 				)
 			)
 		)
-		(property "LCSC#" "C132563"
+		(property "LCSC#" "C132562"
 			(at 125.73 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -4020,7 +4020,29 @@
 				)
 			)
 		)
-		(property "mpn" "10118194-0001LF"
+		(property "mpn" "10118193-0001LF"
+			(at 125.73 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Amphenol ICC"
+			(at 125.73 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" "10118193-0001LF"
 			(at 125.73 67.31 0)
 			(hide yes)
 			(show_name no)
