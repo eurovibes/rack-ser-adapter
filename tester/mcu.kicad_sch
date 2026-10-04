@@ -4956,8 +4956,8 @@
 		(uuid "fc50b6ae-3a7f-44a9-98e4-d63311385cda")
 	)
 	(no_connect
-		(at 139.7 111.76)
-		(uuid "98f25949-41b7-4074-8f33-912b6ecfc049")
+		(at 175.26 91.44)
+		(uuid "4c3d9a9b-2d9f-4cc7-8fab-f5b4cb4d40bd")
 	)
 	(wire
 		(pts
@@ -5348,6 +5348,16 @@
 			(type default)
 		)
 		(uuid "348d2194-c95f-486a-bc12-daef70e692c2")
+	)
+	(wire
+		(pts
+			(xy 137.16 111.76) (xy 139.7 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34fc7da1-9e13-4a89-b22b-63110eee9d3d")
 	)
 	(wire
 		(pts
@@ -5858,16 +5868,6 @@
 			(type default)
 		)
 		(uuid "6df19373-a985-4b3c-8112-6c4e82d35943")
-	)
-	(wire
-		(pts
-			(xy 175.26 91.44) (xy 177.8 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e5e6fb0-afb2-4df2-95c6-15ca530494df")
 	)
 	(wire
 		(pts
@@ -7230,7 +7230,7 @@
 		(uuid "a45bba38-5482-40ee-9b99-dce1e06c7feb")
 	)
 	(label "SYS_SWDIO"
-		(at 177.8 91.44 0)
+		(at 177.8 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7506,12 +7506,12 @@
 	)
 	(hierarchical_label "~{RST1}"
 		(shape output)
-		(at 177.8 86.36 0)
+		(at 137.16 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "ef5f1e45-0887-4b97-bbfd-5aeda6bc041e")
 	)
