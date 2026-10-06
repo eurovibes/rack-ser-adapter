@@ -2523,6 +2523,39 @@
 				)
 			)
 		)
+		(property "MF" "---"
+			(at 215.9 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" "N/A"
+			(at 215.9 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "assemble" "n"
+			(at 215.9 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "70ca9f1f-5098-4580-a454-5de85d963150")
 		)
@@ -2748,6 +2781,39 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 228.6 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "---"
+			(at 228.6 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" "N/A"
+			(at 228.6 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "assemble" "n"
 			(at 228.6 115.57 0)
 			(hide yes)
 			(show_name no)
@@ -4589,6 +4655,39 @@
 				)
 			)
 		)
+		(property "MF" "---"
+			(at 203.2 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" "N/A"
+			(at 203.2 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "assemble" "n"
+			(at 203.2 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1b3e7606-3374-4ce8-847b-59ffd7e0ece2")
 		)
@@ -5210,6 +5309,39 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
+			(at 190.5 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "---"
+			(at 190.5 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" "N/A"
+			(at 190.5 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "assemble" "n"
 			(at 190.5 115.57 0)
 			(hide yes)
 			(show_name no)

@@ -4697,6 +4697,39 @@
 				)
 			)
 		)
+		(property "Long Description" "-55℃~+125℃ 1 200mA 450mΩ 600Ω@100MHz ±25% 0603 Ferrite Beads ROHS"
+			(at 123.19 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MF" "Sunlord"
+			(at 123.19 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MP" "GZ1608D601TF"
+			(at 123.19 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "df3cc705-ef90-4e98-8e3b-5c533be1ad17")
 		)
