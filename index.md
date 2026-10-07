@@ -20,6 +20,9 @@ original design Tripp Lite DB9 to RJ45 Modular Serial Adapter are choosen.
 Deploying and testing these adapters, each one has to be individualy coded,
 is quite a challenge. rack-ser-adapter is developed to reduce this effort.
 
+To test the functionality of these adapters a [tester](tester.md) was
+developed. 
+
 ## Documentation
 
 ### Schematic
